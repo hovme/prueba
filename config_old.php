@@ -15,7 +15,7 @@ $CFG->wwwroot   = 'http://aula.nubeducativa.cl';
 $CFG->dirroot   = '/home/nubeduca/public_html/aula';
 $CFG->dataroot  = '/home/nubeduca/moodledata';
 $CFG->admin     = 'admin';
-//$CFG->respectsessionsettings = 'true';
+$CFG->respectsessionsettings = 'true';
 
 $CFG->directorypermissions = 00777;  // try 02777 on a server in Safe Mode
 
